@@ -6,7 +6,9 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello world
+      - name: Print text
         run: |
           echo "Hello there Alex!"
+      - name: Check working directory
+        run: |
           ls -la
