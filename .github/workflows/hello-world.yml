@@ -11,4 +11,7 @@ jobs:
           echo "Hello there Alex!"
       - name: Check working directory
         run: |
+          pwd
+      - name: List elems in wd
+        run: |
           ls -la
